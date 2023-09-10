@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS Variables */
+:root {
+  --white: hsl(0, 0%, 100%);
+  --ghost-white: hsl(276, 100%, 99%);
+  --davys-gray: hsl(271, 12%, 34%);
+  --eucalyptus: hsl(150, 100%, 63%);
+  --dark-purple: hsl(273, 85%, 12%);
+}
+
+/* Fonts */
+@font-face {
+  font-family: fraunces-semibold;
+  src: url(./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: manrope-regular;
+  src: url(./assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+}
