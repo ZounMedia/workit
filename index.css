@@ -229,6 +229,38 @@ section.product-info {
   header img.bg-pattern2 {
     display: inherit;
   }
+
+  section.product-info {
+    height: 65vh;
+    padding: 8% 8%;
+  }
+
+  .product-info-item {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-info-item .info {
+    height: 70%;
+    justify-content: space-between;
+  }
+
+  .product-info-item .info .description {
+    width: 90%;
+  }
+
+  .product-info-item .info .heading {
+    width: 90%;
+    justify-self: flex-start;
+  }
+
+  .product-info-item .info .description p {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    font-size: 1.2rem;
+  }
 }
 
 /* Desktop */
