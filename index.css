@@ -73,6 +73,7 @@ header section {
   display: flex;
   flex-direction: column;
   padding: 0 4%;
+  clip-path: ellipse(180% 100% at top);
 }
 
 header section .heading {
@@ -84,8 +85,9 @@ header section .heading {
 }
 
 header section .heading h1 {
+  padding: 0 11px;
   text-align: center;
-  font-size: 3.2rem;
+  font-size: 3rem;
 }
 
 header section .heading h1 span {
