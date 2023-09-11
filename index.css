@@ -221,7 +221,7 @@ section.product-info {
   }
 
   header img.hero {
-    width: 70%;
+    width: 75%;
     bottom: 12%;
   }
 
@@ -241,12 +241,17 @@ section.product-info {
     align-items: center;
   }
 
+  .product-info-item .number {
+    justify-self: center;
+  }
+
   .product-info-item .info {
-    height: 70%;
+    height: 108px;
     justify-content: space-between;
   }
 
   .product-info-item .info .description {
+    height: 60%;
     width: 90%;
   }
 
@@ -256,8 +261,6 @@ section.product-info {
   }
 
   .product-info-item .info .description p {
-    height: 100%;
-    width: 100%;
     text-align: left;
     font-size: 1.2rem;
   }
@@ -265,6 +268,10 @@ section.product-info {
 
 /* Desktop */
 @media (min-width: 1440px) {
+  header {
+    height: 80vh;
+  }
+
   header section {
     clip-path: ellipse(100% 100% at top);
   }
@@ -283,7 +290,7 @@ section.product-info {
   }
 
   header img.hero {
-    width: 40%;
+    width: 28%;
     bottom: 12%;
   }
 
@@ -297,5 +304,30 @@ section.product-info {
     position: absolute;
     right: -4%;
     top: 30%;
+  }
+
+  section.product-info {
+    height: 35vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 4%;
+  }
+
+  .product-info .product-info-item {
+    height: 100%;
+    width: 33.33%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2%;
+  }
+
+  .product-info .product-info-item .info {
+    height: 60%;
+  }
+
+  .product-info .product-info-item .info .heading,
+  .product-info .product-info-item .info .description p {
+    text-align: center;
   }
 }
