@@ -44,6 +44,8 @@ header {
   align-items: center;
   color: var(--white);
   background-color: var(--white);
+  position: relative;
+  overflow: hidden;
 }
 
 nav {
@@ -64,6 +66,12 @@ ul li {
   text-decoration: underline;
   text-decoration-color: var(--eucalyptus);
   text-underline-offset: 12.5px;
+}
+
+ul li:hover {
+  cursor: pointer;
+  color: var(--eucalyptus);
+  transition: all 0.3s ease-in-out;
 }
 
 header section {
@@ -110,8 +118,48 @@ header section .btn-action button {
   color: var(--dark-purple);
 }
 
+header section .btn-action button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border-color: var(--eucalyptus);
+  color: var(--eucalyptus);
+  transition: all 0.3s ease-in-out;
+}
+
 header img.hero {
   position: relative;
   width: 80%;
   bottom: 10%;
+}
+
+header img.bg-pattern1 {
+  position: absolute;
+  left: -30%;
+  top: 20%;
+  display: none;
+}
+
+header img.bg-pattern2 {
+  position: absolute;
+  right: -13%;
+  top: 43%;
+  display: none;
+}
+
+/* Media Queries*/
+
+@media (min-width: 768px) {
+  header section .heading h1 {
+    font-size: 5rem;
+  }
+
+  header img.hero {
+    width: 70%;
+    bottom: 12%;
+  }
+
+  header img.bg-pattern1,
+  header img.bg-pattern2 {
+    display: inherit;
+  }
 }
