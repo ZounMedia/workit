@@ -342,16 +342,16 @@ section.product-info {
 
   .founder {
     height: 60vh;
+    padding: 5%;
   }
 
   .founder .profile-img {
     height: 35%;
     justify-content: flex-start;
-    padding: 0 6%;
   }
 
   .founder .profile-img img {
-    margin-top: 30%;
+    margin-top: 20%;
   }
 
   .founder .profile-description {
@@ -375,6 +375,13 @@ section.product-info {
     text-align: left;
     font-size: 1.2rem;
     line-height: 2rem;
+  }
+
+  .founder img.bg-pattern3 {
+    display: inherit;
+    position: absolute;
+    bottom: -6%;
+    right: 8%;
   }
 
   .founder .profile-description .btn-action {
@@ -446,5 +453,37 @@ section.product-info {
   .product-info .product-info-item .info .heading,
   .product-info .product-info-item .info .description p {
     text-align: center;
+  }
+
+  .founder {
+    height: 95vh;
+    padding: 0 12%;
+  }
+
+  .founder .profile-img img {
+    width: 450.29px;
+    height: 453px;
+    margin-top: 35%;
+  }
+
+  .founder .profile-description {
+    width: 730px;
+    height: 474.75px;
+    padding: 9% 5%;
+  }
+
+  .founder .profile-description .description {
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+  }
+
+  .btn-action:last-of-type button {
+    width: 190px;
+    height: 61px;
+  }
+
+  .founder img.bg-pattern3 {
+    bottom: -5%;
+    right: 15%;
   }
 }
