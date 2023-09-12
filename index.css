@@ -220,6 +220,7 @@ section.product-info {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  position: relative;
 }
 
 .founder .profile-img {
@@ -283,6 +284,33 @@ section.product-info {
   width: 172px;
 }
 
+/* FOOTER */
+
+footer {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-container {
+  width: 116px;
+  height: 102.22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-container ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  */
 /* Media Queries*/
 
 /* Tablet */
@@ -388,6 +416,10 @@ section.product-info {
     width: 100%;
     justify-content: flex-start;
   }
+
+  footer {
+    height: 30vh;
+  }
 }
 
 /* Desktop */
@@ -469,12 +501,12 @@ section.product-info {
   .founder .profile-description {
     width: 730px;
     height: 474.75px;
-    padding: 9% 5%;
+    padding: 8% 5%;
   }
 
   .founder .profile-description .description {
     font-size: 1.3rem;
-    line-height: 2.2rem;
+    /* line-height: 2.2rem; */
   }
 
   .btn-action:last-of-type button {
